@@ -1,9 +1,6 @@
-export default function shoppingListItemReducer(
-	state = {
-		items: []
-	},
-	action
-) {
+
+
+export default function shoppingListItemReducer(state = { items: [] }, action) {
 	switch (action.type) {
 		case 'INCREASE_COUNT':
 			return {
